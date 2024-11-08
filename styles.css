@@ -1,0 +1,72 @@
+/* Apply a full-screen background image to the entire page */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-image: url("img2.jpeg"); /* Path to the img.jpg image in the images folder */
+  background-size: cover; /* Make the background image cover the entire page */
+  background-position: center; /* Center the background image */
+}
+
+/* Container for the form elements */
+.container {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border: 2px solid black; /* Change the border to black with a thickness of 2px */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+/* Heading style */
+h2 {
+  color: #4a90e2;
+}
+
+/* Styling for input fields */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Button styling */
+button {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #357ABD;
+}
+
+/* Styling for output and error message boxes */
+.output-box, .error-box {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Styling for the output box */
+.output-box {
+  background-color: #f9f9f9;
+}
+
+/* Styling for the error box */
+.error-box {
+  background-color: #ffe6e6;
+  color: #d9534f;
+}

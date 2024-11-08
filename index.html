@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Date Format Converter</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Date Format Converter</h2>
+  
+  <label for="inputDate">Input Date:</label>
+  <input type="text" id="inputDate" placeholder="e.g., 12/11/2012">
+  
+  <label for="inputFormat">Input Format:</label>
+  <input type="text" id="inputFormat" placeholder="e.g., DD/MM/YYYY">
+  
+  <label for="expectedFormat">Expected Format:</label>
+  <input type="text" id="expectedFormat" placeholder="e.g., MM/YYYY/DD">
+  
+  <button onclick="convertDate()">Convert Date</button>
+  
+  <div id="output" class="output-box"></div>
+  <div id="error" class="error-box"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
